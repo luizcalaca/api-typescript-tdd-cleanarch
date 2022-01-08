@@ -16,7 +16,10 @@ git config --global core.editor code (for editing with visual code)
 Some created alias with --global:
 
 ```sh
+[core]
+	editor = code --wait
 [alias]
 	s = !git status -s
-	c = !git add --all && git commit -m     #use git c "message
+	c = !git add --all && git commit -m
+	l = !git log --pretty=format:'%C(blue)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
 ```
