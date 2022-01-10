@@ -30,3 +30,7 @@ npm i -D typescript @types/node
 ```
 
 After install it we can create the tsconfig.json
+
+ESlint with Typescript
+
+link: https://github.com/standard/eslint-config-standard-with-typescript
