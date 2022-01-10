@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/luizcalaca/api-typescript-tdd-cleanarch/issues"
   },
-  "homepage": "https://github.com/luizcalaca/api-typescript-tdd-cleanarch#readme"
+  "homepage": "https://github.com/luizcalaca/api-typescript-tdd-cleanarch#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.3.3"
+  }
 }
