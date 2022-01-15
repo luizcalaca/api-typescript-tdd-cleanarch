@@ -62,4 +62,15 @@ Let's use lint-staged for husky executing only in files on staging area. Like th
 npm i -D lint-staged 
 ```
 
+Create .huskyrc.json and its configurations as well .lintstagedrc.json.
 Husky call lint-staged for eslint executing.
+
+## Jest configurations
+
+```sh
+npm i -D jest @types/jest ts-jest
+```
+
+```sh
+npx jest --init
+```
