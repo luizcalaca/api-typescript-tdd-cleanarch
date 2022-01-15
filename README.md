@@ -23,6 +23,11 @@ Some created alias with --global:
 	c = !git add --all && git commit -m
 	l = !git log --pretty=format:'%C(blue)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
 ```
+
+```sh
+git commit --ammend --no-edit (join with previous commit)
+```
+
 ## Typescript configurations
 
 ```sh
