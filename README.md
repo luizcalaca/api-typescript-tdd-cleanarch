@@ -27,6 +27,14 @@ Some created alias with --global:
 ```sh
 git commit --ammend --no-edit (join with previous commit)
 ```
+## Git commit linter for conventional commits
+
+Link: https://www.conventionalcommits.org/en/v1.0.0/
+Link: https://www.npmjs.com/package/git-commit-msg-linter
+
+```sh
+npm i git-commit-msg-linter
+```
 
 ## Typescript configurations
 
@@ -39,3 +47,19 @@ After install it we can create the tsconfig.json
 ESlint with Typescript
 
 link: https://github.com/standard/eslint-config-standard-with-typescript
+
+## Husky and Lint-staged configurations
+
+```sh
+npm install husky --save-dev
+```
+
+We use it for commit quality, because it not permits that file be committed without typescript standard (eslint)
+
+Let's use lint-staged for husky executing only in files on staging area. Like this, we don't need do verify all files, but just the current work.
+
+```sh
+npm i -D lint-staged 
+```
+
+Husky call lint-staged for eslint executing.
